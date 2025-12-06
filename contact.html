@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TechNode | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">TechNode.</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" style="max-width: 600px;">
+        <div class="card" style="padding: 2rem;">
+            <h1 style="text-align: center;">Contact Us</h1>
+            <p style="text-align: center; color: #666; margin-bottom: 2rem;">We'd love to hear from you.</p>
+
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="Your Name">
+                
+                <label>Email</label>
+                <input type="email" id="userEmail" placeholder="you@example.com">
+                
+                <label>Message</label>
+                <textarea rows="5" placeholder="How can we help?"></textarea>
+
+                <button type="button" onclick="validateEmail()" class="btn-primary" style="width: 100%;">Send Message</button>
+                
+                <p id="feedbackMsg" style="margin-top: 15px; font-weight: bold; text-align: center; display: none;"></p>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TechNode Essentials. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
